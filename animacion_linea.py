@@ -1,7 +1,6 @@
 import os
 import time
 
-# Esto es un cambio sin importanci
 
 def listar_archivos():
     archivos = [f for f in os.listdir() if f.endswith(".txt")]
